@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:hapticFeedbackEnabled="true"
+    android:isScrollContainer="true" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Aplicacion: Calendario Mundial Brasil 2014" 
+        android:paddingTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+        android:text="Desarrollador: Maykol Alvarado Porras" 
+        android:paddingTop="30dp"/>
+
+        <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+        android:text="Licencia: Software libre" 
+        android:paddingTop="30dp"/>
+</LinearLayout>
+
+
+    </RelativeLayout>
