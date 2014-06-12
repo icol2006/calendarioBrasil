@@ -258,7 +258,7 @@ import android.util.Log;
    	 
    	 if(nombreGrupo.equals("Partidos de todo el mundial")){
    		consulta="select p.cod_partido, p.fecha, p.hora, p.lugar,p.nombre_equipo1,"+
-	   		   	 "p.nombre_equipo2 from partidos p order by p.fecha, p.hora asc";
+	   		   	 "p.nombre_equipo2 from partidos p order by p.cod_partido asc";
    	 }
    	 
    	 fila=db.rawQuery(consulta,null);
